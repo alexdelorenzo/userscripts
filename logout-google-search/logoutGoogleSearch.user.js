@@ -1,8 +1,9 @@
 // ==UserScript==
-// @name         Google Search Log Out
+// @name         Google Search Logout
 // @namespace    http://tampermonkey.net/
-// @version      Log out of your Google account when searching
+// @version      0.1
 // @author       Alex DeLorenzo <alexdelorenzo.dev>
+// @description  Log out of your Google account when searching
 // @match        https://www.google.com/search*
 // @icon         https://www.google.com/s2/favicons?domain=google.com
 // @require      https://greasyfork.org/scripts/419640-onelementready/code/onElementReady.js
