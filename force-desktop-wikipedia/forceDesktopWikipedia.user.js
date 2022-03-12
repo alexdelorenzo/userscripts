@@ -14,8 +14,8 @@
     const MOBILE_SUB = ".m.";
     const DOT = '.';
 
-    const current = new URL(location);
-    current.host = current.host.replace(MOBILE_SUB, DOT);
+    const newUrl = new URL(location);
+    newUrl.host = newUrl.host.replace(MOBILE_SUB, DOT);
 
-    location.replace(current);
+    location.replace(newUrl);
 })();
